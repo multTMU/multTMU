@@ -1,0 +1,119 @@
+INCC  4.04
+
+                   Facility:  CI
+      Material balance area:  SYST
+              Detector type:  PSMC
+                Detector id:  PSMC10
+             Electronics id:  2150
+           Measurement date:  01.01.25  06:22:37
+          Results file name:  11PG2237.BKG
+          Inspection number:  
+         Measurement option:  Background
+                Data source:  Shift register
+     Detector configuration:  Passive
+                   QC tests:  ON
+          Error calculation:  Theoretical method
+         Accidentals method:  Measured
+             Inspector name:  Bob
+            Passive comment:  2ND DAILY BACKGROUND
+                   Predelay:      3.00
+                Gate length:     46.00
+            2nd gate length:     64.00
+               High voltage:   1760
+              Die away time:     36.6000
+                 Efficiency:      0.6180
+      Multiplicity deadtime:     37.5000
+     Coefficient A deadtime:      0.1501
+     Coefficient B deadtime:      0.0484
+     Coefficient C deadtime:      0.4000
+      Doubles gate fraction:      0.5880
+      Triples gate fraction:      0.3700
+
+
+Passive summed raw data
+
+                 Number of good cycles:                6
+                      Total count time:              180
+            Shift register singles sum:             1300
+Shift register reals + accidentals sum:               21
+        Shift register accidentals sum:                0
+         Shift register 1st scaler sum:                0
+         Shift register 2nd scaler sum:                0
+
+Passive summed multiplicity distributions
+
+        R+A sums       A sums
+   0        1279         1300
+   1          21            0
+
+Passive results
+
+       Singles:          7.222 +-     0.205
+       Doubles:          0.117 +-     0.027
+       Triples:          0.000 +-     0.000
+      Scaler 1:          0.000 +-     0.000
+      Scaler 2:          0.000 +-     0.000
+
+Passive cycle data
+
+Count time (sec):  30
+
+Cycle   Singles     R+A         A        Scaler1    Scaler2  QC Tests
+   1        231         35          0          0          0  Fail outlier test
+   2        245         18          0          0          0  Fail outlier test
+   3        211          3          0          0          0  Pass
+   4        217          5          0          0          0  Pass
+   5        215          4          0          0          0  Pass
+   6        219          3          0          0          0  Pass
+   7        199          1          0          0          0  Pass
+   8        239          5          0          0          0  Pass
+
+Cycle      Singles       Doubles       Triples  QC Tests
+   1         7.700         1.167         1.275  Fail outlier test
+   2         8.167         0.600         0.134  Fail outlier test
+   3         7.033         0.100         0.000  Pass
+   4         7.233         0.167         0.000  Pass
+   5         7.167         0.133         0.000  Pass
+   6         7.300         0.100         0.000  Pass
+   7         6.633         0.033         0.000  Pass
+   8         7.967         0.167         0.000  Pass
+
+Passive multiplicity distributions
+
+Cycle 1      R+A           A
+     0         212          231
+     1          13            0
+     2           3            0
+     3           0            0
+     4           0            0
+     5           2            0
+     6           1            0
+
+Cycle 2      R+A           A
+     0         231          245
+     1          10            0
+     2           4            0
+
+Cycle 3      R+A           A
+     0         208          211
+     1           3            0
+
+Cycle 4      R+A           A
+     0         212          217
+     1           5            0
+
+Cycle 5      R+A           A
+     0         211          215
+     1           4            0
+
+Cycle 6      R+A           A
+     0         216          219
+     1           3            0
+
+Cycle 7      R+A           A
+     0         198          199
+     1           1            0
+
+Cycle 8      R+A           A
+     0         234          239
+     1           5            0

@@ -1,0 +1,41 @@
+Item_Id , Pu240 default , 
+Pu238, 0.000561, 6E-06
+Pu239, 0.825885, 0.00083
+Pu240, 0.164155, 0.000163
+Pu241, 0.005918, 0.000006
+Pu242, 0.003511, 3.5E-05
+Pu244, 0, 0
+Am241, 0.008025, 0.00008
+Cf252, 0, 0
+Pu_date, 1/1/2000
+Am_date, 1/1/2000
+Cf_date, 6/1/1985
+Geometry, Cylindrical
+cont_ID, 10
+cont_H, 20
+Wall_thick, 0.2
+Wall_mat, Stainless Steel
+FH_min, 0
+FH_max, 1
+off_x, 1
+off_y, 1
+Matrix_type, MOX
+UPu_ratio, 2
+UPu_min, 1.9
+UPu_max, 2.1
+Ref_Density, 2.5
+Min_Density, 2
+Max_Density, 4
+Ref_mod, 0
+Mod_min, 0
+Mod_max, 0
+Lithium, 0, 0
+Fluorine, 0, 0
+Boron, 0, 0
+Beryllium, 0, 0
+Carbon, 0, 0
+spare, 0, 0
+spare, 0, 0
+spare, 0, 0
+spare, 0, 0
+spare, 0, 0

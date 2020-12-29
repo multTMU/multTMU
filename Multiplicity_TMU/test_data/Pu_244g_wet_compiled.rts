@@ -1,0 +1,264 @@
+INCC  4.04
+
+                   Facility:  CI
+      Material balance area:  SYST
+              Detector type:  PSMC
+                Detector id:  PSMC01
+             Electronics id:  2150
+           Measurement date:  95.06.06  13:41:02
+          Results file name:  Pu_244g_surrogate.RTS
+          Inspection number:  
+                    Item id:  PSMC_m244_wet
+         Measurement option:  Rates Only
+                Data source:  Shift register
+     Detector configuration:  Passive
+                   QC tests:  ON
+          Error calculation:  Theoretical method
+         Accidentals method:  Measured
+             Inspector name:  Bob
+            Passive comment:  MOX Assay
+                   Predelay:      4.50
+                Gate length:     64.00
+            2nd gate length:     64.00
+               High voltage:   1700
+              Die away time:     49.9000
+                 Efficiency:      0.543
+      Multiplicity deadtime:     104.0000
+     Coefficient A deadtime:      0.309
+     Coefficient B deadtime:      0.0998
+     Coefficient C deadtime:      85.0
+      Doubles gate fraction:      0.6117
+      Triples gate fraction:      0.3896
+
+               Isotopics id:  MOX_235
+      Isotopics source code:  XX
+                      Pu238:    1.0300 +-   0.0010      1.0300 +-   0.0001
+                      Pu239:   63.5700 +-   0.0637     63.6640 +-   0.0630
+                      Pu240:   24.0600 +-   0.0241     24.0950 +-   0.0240
+                      Pu241:    7.4500 +-   0.0075      7.4130 +-   0.0075
+                      Pu242:    3.7900 +-   0.0038      3.7950 +-   0.0038
+                    Pu date:  95.04.19                95.06.06
+                      Am241:    1.0400 +-   0.0010      1.088 +-   0.0010
+                    Am date:  95.04.19                95.06.06
+
+     Normalization constant:      1.0000 +-    0.0000
+
+ Passive singles background:     27.000 +-     0.221
+ Passive doubles background:      0.100 +-     0.038
+ Passive triples background:      0.121 +-     0.025
+ Passive scaler1 background:      0.000
+ Passive scaler2 background:      0.000
+
+Passive summed raw data
+
+                 Number of good cycles:               4
+                      Total count time:             4000
+            Shift register singles sum:          329766954
+Shift register reals + accidentals sum:          1802342441
+        Shift register accidentals sum:          1739961025
+         Shift register 1st scaler sum:                0
+         Shift register 2nd scaler sum:                0
+
+Passive summed multiplicity distributions
+
+        R+A sums       A sums
+     0     2431288     2877491
+     1     10771889     12333338
+     2     24874928     27530838
+     3     39818581     42663621
+     4     49743797     51613563
+     5     51579711     51952877
+     6     46217631     45234407
+     7     36769825     34995426
+     8     26463168     24510996
+     9     17507048     15795166
+     10     10744817     9459762
+     11     6189385     5322351
+     12     3357230     2816715
+     13     1727571     1419957
+     14     850309     682886
+     15     401346     315653
+     16     182601     141061
+     17     79311     59828
+     18     33979     24683
+     19     13775     9971
+     20     5556     3948
+     21     2107     1487
+     22     775     587
+     23     318     236
+     24     111     71
+     25     31     21
+     26     7     10
+     27     1     2
+     28     5     1
+     29     0     1
+
+
+Passive results
+
+       Singles:	     83124.627	+-    7.208
+       Doubles:	      16128.39	+-   21.335
+       Triples:	      3698.918	+-   33.902
+      Scaler 1:          0.000 +-     0.000
+      Scaler 2:          0.000 +-     0.000
+
+ Passive multiplicity results
+
+                   Multiplication:          1.039 +-     0.002
+                            Alpha:          0.801 +-     0.023
+ Multiplication correction factor:          1.000
+                  Pu240e mass (g):         80.216 +-     1.200
+                       Pu240e (%):         33.171
+                      Pu mass (g):        241.83 +-     3.62
+         Declared Pu240e mass (g):         78.274
+             Declared Pu mass (g):        244.500
+     Declared - assay Pu mass (g):          2.67 +-     3.62
+     Declared - assay Pu mass (%):          1.11 +-     1.50
+
+
+Passive cycle data
+
+Count time (sec):  1000
+
+Cycle   Singles     R+A         A        Scaler1    Scaler2  QC Tests
+   1	    82426984	450429101	434801888	0	0	Pass
+   2	    82432740	450508720	434941779	0	0	Pass
+   3	    82456915	450727410	435175011	0	0	Pass
+   4	    82450315	450677210	435042347	0	0	Pass
+
+
+
+Cycle      Singles       Doubles       Triples  QC Tests
+   1      83109.618     16160.664      3741.776   Pass
+   2      83115.474     16099.427      3770.048   Pass
+   3      83140.070     16084.450      3656.072   Pass
+   4      83133.352     16169.023      3627.778   Pass
+
+
+
+
+Passive multiplicity distributions
+
+Cycle 1      R+A           A
+     0     609312     720840
+     1     2692070     3082542
+     2     6220277     6885097
+     3     9958719     10671321
+     4     12435800     12902994
+     5     12892839     12990512
+     6     11549959     11305047
+     7     9189016     8742133
+     8     6613534     6125874
+     9     4374549     3944556
+     10     2684166     2362385
+     11     1545343     1325953
+     12     837859     703656
+     13     431868     354121
+     14     211406     170639
+     15     100903     78863
+     16     45750     35441
+     17     19882     14877
+     18     8473     6111
+     19     3339     2515
+     20     1332     942
+     21     497     362
+     22     157     131
+     23     59     44
+     24     22     16
+     25     7     6
+     26     2     5
+     27     0     1
+
+Cycle 2      R+A           A
+     0     607765     718631
+     1     2693746     3083049
+     2     6220260     6883713
+     3     9956662     10665954
+     4     12437537     12902802
+     5     12892420     12985472
+     6     11554690     11304742
+     7     9183391     8749676
+     8     6611214     6122627
+     9     4376104     3950839
+     10     2683503     2363356
+     11     1549471     1331772
+     12     840840     705548
+     13     433068     354831
+     14     212379     171078
+     15     99996     78316
+     16     45543     34918
+     17     19715     14965
+     18     8641     6338
+     19     3531     2553
+     20     1369     950
+     21     527     371
+     22     219     145
+     23     98     69
+     24     42     19
+     25     9     4
+     26     2     2
+
+Cycle 3      R+A           A
+     0     606878     719077
+     1     2693299     3080847
+     2     6214146     6875663
+     3     9952802     10661269
+     4     12436447     12907043
+     5     12895559     12988516
+     6     11559640     11315226
+     7     9201284     8758259
+     8     6618628     6129379
+     9     4381005     3950933
+     10     2686796     2369301
+     11     1547216     1332519
+     12     839067     703466
+     13     431496     355115
+     14     213000     170463
+     15     100065     79197
+     16     45395     35477
+     17     19934     14961
+     18     8412     6065
+     19     3523     2446
+     20     1419     1078
+     21     555     376
+     22     201     160
+     23     74     57
+     24     18     16
+     25     6     3
+     26     3     2
+     27     0     1
+
+Cycle 4      R+A           A
+     0     607333     718943
+     1     2692774     3086900
+     2     6220245     6886365
+     3     9950398     10665077
+     4     12434013     12900724
+     5     12898893     12988377
+     6     11553342     11309392
+     7     9196134     8745358
+     8     6619792     6133116
+     9     4375390     3948838
+     10     2690352     2364720
+     11     1547355     1332107
+     12     839464     704045
+     13     431139     355890
+     14     213524     170706
+     15     100382     79277
+     16     45913     35225
+     17     19780     15025
+     18     8453     6169
+     19     3382     2457
+     20     1436     978
+     21     528     378
+     22     198     151
+     23     87     66
+     24     29     20
+     25     9     8
+     26     0     1
+     27     1     0
+     28     5     1
+     29     0     1
+
+
+

@@ -1,0 +1,17 @@
+Counter ,LEMC, 
+file_ID , c:\multiplicity_tmu\detector_dimensions\LEMC_dimensions.csv , 
+cavity_type, Cylindrical, 
+Cav_height,50, 
+Cav_width,40, 
+Cav_length,40, 
+Cd_thickness,0.1, 
+Tube_ID,2.54, 
+Tube_length,71.12, 
+num_rows,3, 
+Radius_quantity,0, 
+Row1,23.175,36
+Row2,26.985,40
+Row3,30.795,50
+Row4,0,0
+Row5,0,0
+Stand_height,5, 

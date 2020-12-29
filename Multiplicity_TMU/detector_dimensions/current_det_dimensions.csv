@@ -1,0 +1,17 @@
+Counter , PSMC_01 , 
+file_ID , c:\multiplicity_tmu\detector_dimensions\current_det_dimensions.csv , 
+cavity_type, Cylindrical, 
+Cav_height,40, 
+Cav_width,19, 
+Cav_length,19, 
+Cd_thickness,0.1, 
+Tube_ID,2.54, 
+Tube_length,71.12, 
+num_rows,4, 
+Radius_quantity,0, 
+Row1,13.1,19
+Row2,17.27,25
+Row3,21,18
+Row4,24.72,18
+Row5,0,0
+Stand_height,5, 

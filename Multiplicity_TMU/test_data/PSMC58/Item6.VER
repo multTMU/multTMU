@@ -1,0 +1,544 @@
+INCC 5.1.2
+
+                   Facility:  TEST
+      Material balance area:  MBA1
+              Detector type:  PSMC
+                Detector id:  PSMC58
+             Electronics id:  AMSR
+      Inventory change code:    
+                   I/O code:   
+           Measurement date:  17.08.03  10:03:27
+          Results file name:  783K0327.VER
+          Inspection number:  
+                    Item id:  ITEM6
+                 Stratum id:  XXXX
+           Bias uncertainty:  0.0000
+         Random uncertainty:  0.0000
+     Systematic uncertainty:  0.0000
+     Relative std deviation:  0.0000
+              Material type:  PUOX
+     Original declared mass:  10.000
+         Measurement option:  Verification
+                Data source:  Database
+                   QC tests:  ON
+          Error calculation:  Sample method
+         Accidentals method:  Measured
+             Inspector name:  
+            Passive comment:  
+
+               Isotopics id:  ITEM6
+      Isotopics source code:  O6
+                      Pu238:    0.0120 +-   0.0000      0.0083 +-   0.0000
+                      Pu239:   94.1380 +-   0.0000     94.3706 +-   0.0000
+                      Pu240:    5.5840 +-   0.0000      5.5775 +-   0.0000
+                      Pu241:    0.2480 +-   0.0000      0.0255 +-   0.0000
+                      Pu242:    0.0180 +-   0.0000      0.0181 +-   0.0000
+                    Pu date:  70.06.01                17.08.03
+                      Am241:    0.0000 +-   0.0000      0.2124 +-   0.0000
+                    Am date:  70.06.01                17.08.03
+
+                   Predelay:      3.00
+                Gate length:     46.00
+            2nd gate length:     64.00
+               High voltage:   1680
+              Die away time:     39.0000
+                 Efficiency:      0.5800
+      Multiplicity deadtime:     50.0000
+     Coefficient A deadtime:      0.1515
+     Coefficient B deadtime:      0.0219
+     Coefficient C deadtime:      0.0000
+      Doubles gate fraction:      0.6140
+      Triples gate fraction:      0.3910
+
+     Normalization constant:      1.0000 +-    0.0000
+
+ Passive singles background:     60.340 +-     0.578
+ Passive doubles background:      0.650 +-     0.084
+ Passive triples background:      0.104 +-     0.052
+ Passive scaler1 background:     10.015
+ Passive scaler2 background:     28.615
+
+Warning messages
+
+Passive calibration curve: failed stratum rejection limits
+Known alpha: failed stratum rejection limits
+Multiplicity: failed stratum rejection limits
+
+Passive summed raw data
+
+                 Number of good cycles:               20
+                      Total count time:              600
+            Shift register singles sum:         24203432
+Shift register reals + accidentals sum:         45105878
+        Shift register accidentals sum:         44911857
+         Shift register 1st scaler sum:                0
+         Shift register 2nd scaler sum:                0
+
+Passive summed multiplicity distributions
+
+        R+A sums       A sums
+   0     3775240      3800378
+   1     6999246      7025151
+   2     6497960      6499606
+   3     4033134      4016868
+   4     1885920      1866883
+   5      707786       698151
+   6      224043       218834
+   7       61301        59509
+   8       14852        14333
+   9        3143         2986
+  10         675          598
+  11         110          114
+  12          15           16
+  13           6            4
+  14           1            0
+
+Results
+
+       Singles:      40340.752 +-     9.842
+       Doubles:        324.712 +-    11.023
+       Triples:         63.764 +-    10.669
+         Quads:          5.424 +-    10.148
+ Quads/Triples:         -0.668 +-     0.563
+      Scaler 1:        -10.015 +-     0.000
+      Scaler 2:        -28.615 +-     0.000
+
+ Passive calibration curve results
+
+                  Pu240e mass (g):          1.669 +-     0.061
+                       Pu240e (%):          5.629
+                      Pu mass (g):         29.649 +-     1.079
+         Declared Pu240e mass (g):          0.561
+             Declared Pu mass (g):          9.962
+     Declared - assay Pu mass (g):        -19.687 +-     1.079
+     Declared - assay Pu mass (%):       -197.626 +-    10.835
+
+Passive calibration curve calibration parameters
+
+                         Equation:  D = a + b * m + c * m^2 + d * m^3
+                                a:   0.000000e+000
+                                b:   1.938653e+002
+                                c:   4.211907e-001
+                                d:   0.000000e+000
+                       variance a:   0.000000e+000
+                       variance b:   7.128466e+000
+                       variance c:   7.104818e-004
+                       variance d:   0.000000e+000
+                    covariance ab:   0.000000e+000
+                    covariance ac:   0.000000e+000
+                    covariance ad:   0.000000e+000
+                    covariance bc:  -6.714207e-002
+                    covariance bd:   0.000000e+000
+                    covariance cd:   0.000000e+000
+                          sigma x:   0.000000e+000
+Analysis based on doubles rate.
+
+ Known alpha results
+
+                            Alpha:          0.882
+                   Multiplication:          1.000
+ Multiplication corrected doubles:        324.712 +-    11.023
+                  Pu240e mass (g):          1.685 +-     0.057
+                       Pu240e (%):          5.629
+                      Pu mass (g):         29.939 +-     1.020
+         Declared Pu240e mass (g):          0.561
+             Declared Pu mass (g):          9.962
+     Declared - assay Pu mass (g):        -19.977 +-     1.020
+     Declared - assay Pu mass (%):       -200.535 +-    10.243
+
+Known alpha calibration parameters
+
+                     Alpha weight:   1.000000e+000
+                         Rho zero:   3.230000e-001
+                                k:   2.166000e+000
+                                a:   0.000000e+000
+                                b:   1.926848e+002
+                       variance a:   0.000000e+000
+                       variance b:   3.423366e-001
+                    covariance ab:   0.000000e+000
+                          sigma x:   0.000000e+000
+
+                         PRIMARY RESULT
+
+ Passive multiplicity results
+
+                   Multiplication:          1.003 +-     0.005
+                            Alpha:         50.998 +-    31.997
+ Multiplication correction factor:          1.000
+                  Pu240e mass (g):          1.308 +-     0.811
+                       Pu240e (%):          5.629
+                      Pu mass (g):         23.231 +-    14.417
+         Declared Pu240e mass (g):          0.561
+             Declared Pu mass (g):          9.962
+     Declared - assay Pu mass (g):        -13.269 +-    14.417
+     Declared - assay Pu mass (%):       -133.199 +-   144.718
+
+                       END PRIMARY RESULT
+
+Passive multiplicity calibration parameters
+
+                Spontaneous fission rate:   4.735000e+002
+1st factorial moment spontaneous fission:   2.154000e+000
+2nd factorial moment spontaneous fission:   3.789000e+000
+3rd factorial moment spontaneous fission:   5.211000e+000
+    1st factorial moment induced fission:   3.163000e+000
+    2nd factorial moment induced fission:   8.240000e+000
+    3rd factorial moment induced fission:   1.732100e+001
+                                       a:   1.000000e+000
+                                       b:   0.000000e+000
+                                       c:   0.000000e+000
+                                 sigma x:   0.000000e+000
+                            alpha weight:   0.000000e+000
+            efficiency correction factor:   1.000000e+000
+
+Passive cycle data
+
+Count time (sec):  30
+
+Cycle   Singles     R+A         A        Scaler1    Scaler2  QC Tests
+   1    1210674    2258369    2247457          0          0  Pass
+   2    1210655    2255323    2247386          0          0  Pass
+   3    1209878    2254970    2244502          0          0  Pass
+   4    1209825    2254677    2244301          0          0  Pass
+   5    1212163    2263457    2252985          0          0  Pass
+   6    1210059    2254897    2245174          0          0  Pass
+   7    1212345    2261528    2253665          0          0  Pass
+   8    1208555    2249452    2239594          0          0  Pass
+   9    1210109    2254226    2245351          0          0  Pass
+  10    1210382    2255548    2246372          0          0  Pass
+  11    1210157    2255579    2245538          0          0  Pass
+  12    1209045    2252153    2241410          0          0  Pass
+  13    1209747    2256278    2244017          0          0  Pass
+  14    1209453    2255174    2242925          0          0  Pass
+  15    1210619    2255469    2247250          0          0  Pass
+  16    1209780    2253073    2244133          0          0  Pass
+  17    1213020    2267673    2256181          0          0  Pass
+  18    1210648    2256884    2247361          0          0  Pass
+  19    1209157    2249132    2241824          0          0  Pass
+  20    1207161    2242016    2234431          0          0  Pass
+
+Cycle      Singles       Doubles       Triples          Mass  QC Tests
+   1     40357.550       365.327        62.861         1.921  Pass
+   2     40356.915       265.549       123.942        -2.419  Pass
+   3     40330.935       350.434        39.364         2.919  Pass
+   4     40329.163       347.349       102.791        -0.261  Pass
+   5     40407.337       350.573        62.754         1.721  Pass
+   6     40336.987       325.448        29.162         3.115  Pass
+   7     40413.422       263.069       102.102        -1.446  Pass
+   8     40286.699       329.973        -5.561         5.108  Pass
+   9     40338.659       297.007        42.163         2.027  Pass
+  10     40347.787       307.103        92.431        -0.347  Pass
+  11     40340.264       336.114         1.566         4.784  Pass
+  12     40303.083       359.656        21.078         4.020  Pass
+  13     40326.555       410.569        -7.923         6.313  Pass
+  14     40316.725       410.166       153.964        -1.652  Pass
+  15     40355.711       275.007       126.338        -2.388  Pass
+  16     40327.658       299.187       117.897        -1.651  Pass
+  17     40435.992       384.784        70.136         1.830  Pass
+  18     40356.681       318.741        80.026         0.418  Pass
+  19     40306.828       244.451        43.133         1.227  Pass
+  20     40240.089       253.738        16.765         2.790  Pass
+
+Passive multiplicity distributions
+
+Cycle 1      R+A           A
+     0      188544       190152
+     1      349864       351407
+     2      325304       324859
+     3      201731       200686
+     4       94268        93520
+     5       35521        35147
+     6       11347        11026
+     7        3098         2956
+     8         781          726
+     9         159          157
+    10          47           31
+    11          10            8
+
+Cycle 2      R+A           A
+     0      189320       189999
+     1      350160       351055
+     2      324594       325273
+     3      201418       200987
+     4       94201        93555
+     5       35801        35025
+     6       11265        10920
+     7        3026         2960
+     8         720          722
+     9         127          133
+    10          17           22
+    11           5            4
+    12           1            1
+
+Cycle 3      R+A           A
+     0      188655       190186
+     1      349718       350795
+     2      324937       325253
+     3      201716       200795
+     4       94325        93288
+     5       35364        34742
+     6       11171        10927
+     7        3049         2971
+     8         778          734
+     9         137          153
+    10          25           29
+    11           2            4
+    12           1            1
+
+Cycle 4      R+A           A
+     0      188478       189252
+     1      350143       352547
+     2      324728       324645
+     3      201935       200582
+     4       94191        93257
+     5       35054        34694
+     6       11151        10902
+     7        3101         3000
+     8         824          750
+     9         176          158
+    10          36           31
+    11           7            5
+    12           0            1
+    13           1            0
+
+Cycle 5      R+A           A
+     0      189075       190409
+     1      349760       351067
+     2      324604       324847
+     3      202028       201455
+     4       95717        94109
+     5       35561        35284
+     6       11303        11057
+     7        3209         3031
+     8         737          728
+     9         140          138
+    10          24           30
+    11           5            5
+    12           0            1
+
+Cycle 6      R+A           A
+     0      188754       190225
+     1      350194       351105
+     2      324314       324639
+     3      201798       201186
+     4       94473        93103
+     5       35473        34981
+     6       11121        10951
+     7        3006         2973
+     8         731          712
+     9         150          139
+    10          40           37
+    11           3            7
+    12           1            0
+    13           1            0
+
+Cycle 7      R+A           A
+     0      188906       189445
+     1      349618       351109
+     2      326024       326321
+     3      202566       201889
+     4       94455        93581
+     5       35445        35085
+     6       11333        11025
+     7        3105         2999
+     8         701          709
+     9         150          146
+    10          34           30
+    11           8            5
+    12           0            1
+
+Cycle 8      R+A           A
+     0      188879       190434
+     1      349349       350701
+     2      324745       324515
+     3      201587       200474
+     4       94005        93146
+     5       35003        34717
+     6       11182        10781
+     7        2953         2929
+     8         655          689
+     9         167          135
+    10          21           25
+    11           7            8
+    12           2            1
+    13           0            1
+
+Cycle 9      R+A           A
+     0      188808       190227
+     1      349983       351083
+     2      324599       324478
+     3      202522       201284
+     4       94159        93591
+     5       34823        34679
+     6       11126        10840
+     7        3053         3009
+     8         790          715
+     9         186          158
+    10          53           37
+    11           7            7
+    12           0            1
+
+Cycle 10     R+A           A
+     0      188472       189587
+     1      350642       351686
+     2      325287       325701
+     3      200970       200283
+     4       94113        93077
+     5       35593        35113
+     6       11327        11081
+     7        3032         2972
+     8         743          709
+     9         160          137
+    10          38           30
+    11           5            5
+
+Cycle 11     R+A           A
+     0      188835       190229
+     1      349679       351391
+     2      324563       324336
+     3      202285       200846
+     4       94232        93621
+     5       35466        34941
+     6       11165        10906
+     7        3037         3013
+     8         692          687
+     9         164          152
+    10          33           28
+    11           3            4
+    12           2            1
+    13           1            1
+
+Cycle 12     R+A           A
+     0      188738       190285
+     1      349964       351342
+     2      324525       324547
+     3      201244       200251
+     4       93677        92724
+     5       35678        35029
+     6       11302        11012
+     7        3038         2952
+     8         710          728
+     9         141          144
+    10          26           28
+    11           2            4
+
+Cycle 13     R+A           A
+     0      188039       190343
+     1      349774       350827
+     2      325278       325105
+     3      201562       200352
+     4       94669        93459
+     5       35123        34859
+     6       11374        10942
+     7        2982         2968
+     8         732          713
+     9         168          141
+    10          32           30
+    11           8            6
+    12           2            2
+    13           3            1
+    14           1            0
+
+Cycle 14     R+A           A
+     0      188708       190306
+     1      349607       350724
+     2      324495       325244
+     3      202001       200630
+     4       93730        92950
+     5       35498        34747
+     6       11129        10900
+     7        3202         3009
+     8         833          725
+     9         197          171
+    10          44           39
+    11           9            7
+    12           0            2
+
+Cycle 15     R+A           A
+     0      189048       189642
+     1      350536       351764
+     2      324638       325066
+     3      201086       200976
+     4       94453        93314
+     5       35666        34941
+     6       11202        11037
+     7        3080         2997
+     8         734          710
+     9         150          147
+    10          23           22
+    11           3            4
+
+Cycle 16     R+A           A
+     0      189260       190430
+     1      350035       350771
+     2      324451       324696
+     3      201242       200967
+     4       94018        93258
+     5       35485        34943
+     6       11276        10840
+     7        3056         2948
+     8         790          738
+     9         128          152
+    10          36           30
+    11           3            5
+    12           0            1
+
+Cycle 17     R+A           A
+     0      188392       189605
+     1      349464       351683
+     2      326015       325655
+     3      202431       201614
+     4       95418        94076
+     5       35984        35391
+     6       11133        11048
+     7        3232         3038
+     8         755          707
+     9         141          162
+    10          44           30
+    11           9            9
+    12           2            1
+
+Cycle 18     R+A           A
+     0      189249       190191
+     1      349377       351337
+     2      325093       324591
+     3      201659       201025
+     4       94634        93742
+     5       35373        34901
+     6       11159        10942
+     7        3132         2961
+     8         737          750
+     9         189          168
+    10          39           31
+    11           6            7
+    12           1            1
+
+Cycle 19     R+A           A
+     0      188340       189433
+     1      350886       351505
+     2      325184       325328
+     3      200953       200761
+     4       93845        92879
+     5       35069        34553
+     6       11003        10898
+     7        2996         2930
+     8         676          686
+     9         166          146
+    10          30           31
+    11           6            6
+    12           3            1
+    13           0            1
+
+Cycle 20     R+A           A
+     0      188740       189998
+     1      350493       351252
+     2      324582       324507
+     3      200400       199825
+     4       93337        92633
+     5       34806        34379
+     6       10974        10799
+     7        2914         2893
+     8         733          695
+     9         147          149
+    10          33           27
+    11           2            4

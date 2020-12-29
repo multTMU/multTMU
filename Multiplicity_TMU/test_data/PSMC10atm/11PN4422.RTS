@@ -1,0 +1,133 @@
+INCC  4.04
+
+                   Facility:  CI
+      Material balance area:  SYST
+              Detector type:  PSMC
+                Detector id:  PSMC10
+             Electronics id:  2150
+           Measurement date:  01.01.25  13:44:22
+          Results file name:  11PN4422.RTS
+          Inspection number:  
+                    Item id:  CF003
+         Measurement option:  Rates Only
+                Data source:  Shift register
+     Detector configuration:  Passive
+                   QC tests:  ON
+          Error calculation:  Theoretical method
+         Accidentals method:  Measured
+             Inspector name:  Bob
+            Passive comment:  RADIAL RESPONSE X 8 CM
+                   Predelay:      3.00
+                Gate length:     46.00
+            2nd gate length:     64.00
+               High voltage:   1760
+              Die away time:     36.6000
+                 Efficiency:      0.6180
+      Multiplicity deadtime:     37.5000
+     Coefficient A deadtime:      0.1501
+     Coefficient B deadtime:      0.0484
+     Coefficient C deadtime:      0.4000
+      Doubles gate fraction:      0.5880
+      Triples gate fraction:      0.3700
+
+     Normalization constant:      1.0000 +-    0.0000
+
+ Passive singles background:      7.222 +-     0.205
+ Passive doubles background:      0.117 +-     0.027
+ Passive triples background:      0.000 +-     0.000
+ Passive scaler1 background:      0.000
+ Passive scaler2 background:      0.000
+
+Passive summed raw data
+
+                 Number of good cycles:                1
+                      Total count time:              180
+            Shift register singles sum:         18116651
+Shift register reals + accidentals sum:         94284602
+        Shift register accidentals sum:         83876162
+         Shift register 1st scaler sum:                0
+         Shift register 2nd scaler sum:                0
+
+Passive summed multiplicity distributions
+
+        R+A sums       A sums
+   0      418518       725355
+   1     1117094      1562975
+   2     1835251      2244479
+   3     2335354      2591801
+   4     2516711      2572931
+   5     2406423      2293053
+   6     2087681      1871551
+   7     1671589      1425248
+   8     1257886      1018522
+   9      893974       691221
+  10      604411       450323
+  11      391654       281521
+  12      244423       170477
+  13      146636        97988
+  14       85649        55725
+  15       48087        30690
+  16       26500        16193
+  17       14308         8460
+  18        7341         4209
+  19        3703         2094
+  20        1932         1026
+  21         920          444
+  22         384          216
+  23         170           75
+  24          82           41
+  25          41           25
+  26          26            3
+  27           3            3
+  28           3            2
+
+Passive results
+
+       Singles:     101034.071 +-    39.477
+       Doubles:      58733.545 +-   150.708
+       Triples:      19082.950 +-   245.348
+      Scaler 1:          0.000 +-     0.000
+      Scaler 2:          0.000 +-     0.000
+
+Passive cycle data
+
+Count time (sec):  180
+
+Cycle   Singles     R+A         A        Scaler1    Scaler2  QC Tests
+   1   18116651   94284602   83876162          0          0  Pass
+
+Cycle      Singles       Doubles       Triples  QC Tests
+   1    101034.071     58733.545     19082.950  Pass
+
+Passive multiplicity distributions
+
+Cycle 1      R+A           A
+     0      418518       725355
+     1     1117094      1562975
+     2     1835251      2244479
+     3     2335354      2591801
+     4     2516711      2572931
+     5     2406423      2293053
+     6     2087681      1871551
+     7     1671589      1425248
+     8     1257886      1018522
+     9      893974       691221
+    10      604411       450323
+    11      391654       281521
+    12      244423       170477
+    13      146636        97988
+    14       85649        55725
+    15       48087        30690
+    16       26500        16193
+    17       14308         8460
+    18        7341         4209
+    19        3703         2094
+    20        1932         1026
+    21         920          444
+    22         384          216
+    23         170           75
+    24          82           41
+    25          41           25
+    26          26            3
+    27           3            3
+    28           3            2

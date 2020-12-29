@@ -1,0 +1,17 @@
+Counter ,HLNCC, 
+file_ID , c:\multiplicity_tmu\detector_dimensions\current_det_dimensions.csv , 
+cavity_type, Cylindrical, 
+Cav_height,41.3, 
+Cav_width,17.5, 
+Cav_length,17.5, 
+Cd_thickness,0.1, 
+Tube_ID,2.54, 
+Tube_length,50.8, 
+num_rows,1, 
+Radius_quantity,0, 
+Row1,11.1,18
+Row2,0,0
+Row3,0,0
+Row4,0,0
+Row5,0,0
+Stand_height,5, 

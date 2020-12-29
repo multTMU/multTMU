@@ -1,0 +1,248 @@
+INCC 5.1.2
+
+                   Facility:  TEST
+      Material balance area:  MBA1
+              Detector type:  PSMC
+                Detector id:  PSMC 10/001
+             Electronics id:  AMSR
+           Measurement date:  17.08.02  13:52:57
+          Results file name:  782N5257.RTS
+          Inspection number:  
+                    Item id:  Item65
+         Measurement option:  Rates Only
+                Data source:  Database
+     Detector configuration:  Passive
+                   QC tests:  ON
+          Error calculation:  Sample method
+         Accidentals method:  Measured
+             Inspector name:  
+            Passive comment:  
+                   Predelay:      3.00
+                Gate length:     46.00
+            2nd gate length:     64.00
+               High voltage:   1680
+              Die away time:     39.0000
+                 Efficiency:      0.5800
+      Multiplicity deadtime:     50.0000
+     Coefficient A deadtime:      0.1515
+     Coefficient B deadtime:      0.0219
+     Coefficient C deadtime:      0.0000
+      Doubles gate fraction:      0.6140
+      Triples gate fraction:      0.3910
+
+     Normalization constant:      1.0000 +-    0.0000
+
+ Passive singles background:     60.340 +-     0.578
+ Passive doubles background:      0.650 +-     0.084
+ Passive triples background:      0.104 +-     0.052
+ Passive scaler1 background:     10.015
+ Passive scaler2 background:     28.615
+
+Passive summed raw data
+
+                 Number of good cycles:               10
+                      Total count time:              300
+            Shift register singles sum:          2929101
+Shift register reals + accidentals sum:          2846667
+        Shift register accidentals sum:          1315548
+         Shift register 1st scaler sum:                0
+         Shift register 2nd scaler sum:                0
+
+Passive summed multiplicity distributions
+
+        R+A sums       A sums
+   0     1289251      2122633
+   1      893883       476553
+   2      449422       208340
+   3      187633        81568
+   4       71360        27615
+   5       25101         8680
+   6        8569         2627
+   7        2781          785
+   8         801          223
+   9         219           60
+  10          62           15
+  11          14            4
+  12           3            0
+  13           2            0
+
+Results
+
+       Singles:       9706.946 +-     7.057
+       Doubles:       5110.646 +-    10.379
+       Triples:       1531.572 +-     9.249
+         Quads:        271.004 +-    10.304
+ Quads/Triples:          0.177 +-     0.006
+      Scaler 1:        -10.015 +-     0.000
+      Scaler 2:        -28.615 +-     0.000
+
+Passive cycle data
+
+Count time (sec):  30
+
+Cycle   Singles     R+A         A        Scaler1    Scaler2  QC Tests
+   1     293589     284894     132165          0          0  Pass
+   2     292055     282925     130787          0          0  Pass
+   3     292341     283800     131044          0          0  Pass
+   4     292771     283270     131429          0          0  Pass
+   5     292007     283429     130744          0          0  Pass
+   6     292936     286105     131577          0          0  Pass
+   7     293149     286339     131769          0          0  Pass
+   8     293898     285724     132444          0          0  Pass
+   9     292691     283802     131357          0          0  Pass
+  10     293664     286379     132232          0          0  Pass
+
+Cycle      Singles       Doubles       Triples  QC Tests
+   1      9729.593      5097.881      1482.283  Pass
+   2      9678.422      5078.112      1567.011  Pass
+   3      9687.962      5098.750      1520.825  Pass
+   4      9702.306      5068.216      1500.650  Pass
+   5      9676.821      5096.371      1513.459  Pass
+   6      9707.810      5157.920      1570.373  Pass
+   7      9714.915      5159.327      1555.502  Pass
+   8      9739.901      5116.283      1529.992  Pass
+   9      9699.637      5088.377      1522.693  Pass
+  10      9732.095      5145.220      1552.893  Pass
+
+Passive multiplicity distributions
+
+Cycle 1      R+A           A
+     0      129213       212495
+     1       89598        47952
+     2       45105        20940
+     3       18850         8197
+     4        7236         2781
+     5        2386          862
+     6         860          258
+     7         248           78
+     8          76           19
+     9          12            5
+    10           5            1
+
+Cycle 2      R+A           A
+     0      129198       211785
+     1       88876        47529
+     2       44482        20694
+     3       18618         8076
+     4        7024         2737
+     5        2601          862
+     6         857          261
+     7         263           79
+     8          91           24
+     9          35            7
+    10           7            1
+    11           2            1
+    12           1            0
+
+Cycle 3      R+A           A
+     0      128638       211935
+     1       89247        47551
+     2       45060        20773
+     3       18730         8134
+     4        6959         2729
+     5        2429          846
+     6         845          258
+     7         307           81
+     8          95           26
+     9          27            7
+    10           4            2
+
+Cycle 4      R+A           A
+     0      129384       212150
+     1       89116        47660
+     2       44840        20869
+     3       18601         8070
+     4        7210         2796
+     5        2414          862
+     6         830          259
+     7         277           78
+     8          62           19
+     9          28            7
+    10           5            1
+    11           4            0
+
+Cycle 5      R+A           A
+     0      128553       211880
+     1       89165        47305
+     2       44788        20735
+     3       18790         8134
+     4        7031         2729
+     5        2422          845
+     6         882          268
+     7         266           78
+     8          73           23
+     9          27            6
+    10           7            2
+    11           3            1
+
+Cycle 6      R+A           A
+     0      128567       212484
+     1       89432        47411
+     2       44943        20849
+     3       18902         8127
+     4        7200         2773
+     5        2623          910
+     6         883          272
+     7         275           81
+     8          78           22
+     9          16            5
+    10          14            2
+    11           1            1
+    12           2            0
+
+Cycle 7      R+A           A
+     0      128428       212506
+     1       89702        47537
+     2       45126        20864
+     3       18759         8214
+     4        7371         2780
+     5        2505          887
+     6         851          258
+     7         297           74
+     8          85           21
+     9          18            6
+    10           5            2
+    11           2            1
+
+Cycle 8      R+A           A
+     0      129184       212629
+     1       89854        48052
+     2       45241        21009
+     3       18685         8219
+     4        7122         2734
+     5        2565          889
+     6         854          264
+     7         284           73
+     8          79           21
+     9          24            6
+    10           6            2
+
+Cycle 9      R+A           A
+     0      129063       212133
+     1       89407        47637
+     2       44631        20784
+     3       18763         8150
+     4        7031         2753
+     5        2555          863
+     6         869          261
+     7         277           81
+     8          73           23
+     9          18            5
+    10           2            1
+    11           0            0
+    12           0            0
+    13           2            0
+
+Cycle 10     R+A           A
+     0      129023       212636
+     1       89486        47919
+     2       45206        20823
+     3       18935         8247
+     4        7176         2803
+     5        2601          854
+     6         838          268
+     7         287           82
+     8          89           25
+     9          14            6
+    10           7            1
+    11           2            0

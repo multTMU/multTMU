@@ -1,0 +1,108 @@
+INCC  4.04
+
+                   Facility:  CI
+      Material balance area:  SYST
+              Detector type:  PSMC
+                Detector id:  PSMC10
+             Electronics id:  2150
+           Measurement date:  01.01.24  13:32:35
+          Results file name:  11ON3235.BKG
+          Inspection number:  
+         Measurement option:  Background
+                Data source:  Shift register
+     Detector configuration:  Passive
+                   QC tests:  ON
+          Error calculation:  Theoretical method
+         Accidentals method:  Measured
+             Inspector name:  Bob
+            Passive comment:  1st bkg
+                   Predelay:      3.00
+                Gate length:     46.00
+            2nd gate length:     64.00
+               High voltage:   1760
+              Die away time:     36.6000
+                 Efficiency:      0.6180
+      Multiplicity deadtime:     37.5000
+     Coefficient A deadtime:      0.1501
+     Coefficient B deadtime:      0.0484
+     Coefficient C deadtime:      0.4000
+      Doubles gate fraction:      0.5880
+      Triples gate fraction:      0.3700
+
+
+Passive summed raw data
+
+                 Number of good cycles:                6
+                      Total count time:              180
+            Shift register singles sum:             1466
+Shift register reals + accidentals sum:               41
+        Shift register accidentals sum:                1
+         Shift register 1st scaler sum:                0
+         Shift register 2nd scaler sum:                0
+
+Passive summed multiplicity distributions
+
+        R+A sums       A sums
+   0        1432         1465
+   1          29            1
+   2           3            0
+   3           2            0
+
+Passive results
+
+       Singles:          8.144 +-     0.221
+       Doubles:          0.222 +-     0.038
+       Triples:          0.050 +-     0.025
+      Scaler 1:          0.000 +-     0.000
+      Scaler 2:          0.000 +-     0.000
+
+Passive cycle data
+
+Count time (sec):  30
+
+Cycle   Singles     R+A         A        Scaler1    Scaler2  QC Tests
+   1        258          7          0          0          0  Pass
+   2        231          7          0          0          0  Pass
+   3        247          4          0          0          0  Pass
+   4        247          6          1          0          0  Pass
+   5        239          6          0          0          0  Pass
+   6        244         11          0          0          0  Pass
+
+Cycle      Singles       Doubles       Triples  QC Tests
+   1         8.600         0.233         0.000  Pass
+   2         7.700         0.233         0.100  Pass
+   3         8.233         0.133         0.000  Pass
+   4         8.233         0.167         0.133  Pass
+   5         7.967         0.200         0.000  Pass
+   6         8.133         0.367         0.067  Pass
+
+Passive multiplicity distributions
+
+Cycle 1      R+A           A
+     0         251          258
+     1           7            0
+
+Cycle 2      R+A           A
+     0         226          231
+     1           4            0
+     2           0            0
+     3           1            0
+
+Cycle 3      R+A           A
+     0         243          247
+     1           4            0
+
+Cycle 4      R+A           A
+     0         244          246
+     1           1            1
+     2           1            0
+     3           1            0
+
+Cycle 5      R+A           A
+     0         233          239
+     1           6            0
+
+Cycle 6      R+A           A
+     0         235          244
+     1           7            0
+     2           2            0

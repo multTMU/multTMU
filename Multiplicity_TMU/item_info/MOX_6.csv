@@ -1,0 +1,28 @@
+Item_ID,Pu240 default,
+Pu238,0.0103,0
+Pu239,0.6367,0
+Pu240,0.2406,0
+Pu241,0.0745,0
+Pu242,0.0379,0
+Pu244,0,0
+Am241,0.0104,0
+Cf252,0,0
+Pu_date,4/19/1994,
+Am_date,4/18/1994,
+Cf_date,6/1/1985,
+Geometry,Cylindrical,
+cont_ID,0.1,
+cont_H,1,
+Wall_thick,0.1,
+Wall_mat,Stainless Steel,
+FH_min,0,
+FH_max,1,
+off_x,0.1,
+off_y,0.1,
+Matrix_type,MOX,
+Matrix_material,none,
+Ref_density,2.5,
+Min_Density,2,
+Max_Density,4,
+Mod_min,0,
+Mod_max,0,
