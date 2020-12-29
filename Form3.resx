@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="Label27.ToolTip" xml:space="preserve">
+    <value>If using INCC deadtime corrections
+a and b =&gt;Singles, Doubles Correction (Totals, Reals)
+c =&gt; Triples Correction
+
+If using proper deadtime corrections
+a=&gt; not used
+b=&gt; not used
+c =&gt; Doubles Correction 
+d =&gt; Triples Correction
+
+Data acquired prior to 2000 is likely to use the 
+parameters c and d for the doubles and triples
+deadtime correction. 
+
+Canberra NDA2000 data filels will use the 
+parameters c and d for the doubles and triples
+deadtime correction. 
+</value>
+  </data>
+  <data name="Label39.ToolTip" xml:space="preserve">
+    <value>The calibration methodology has significant impact on the TMU.
+Select whether the calibration was based on a point source of material
+located at the cavity center or if a traditional calibration was performed using 
+representative standards. For representative standards based calibration provide 
+an estimate of the typical fill height for the standards.
+
+Enter the corresponding information on the standards material. Deviation 
+the standards characteristics and the item under assay introduces bias in the
+mass assay result. Since the multiplicity measurement can not detemine
+these characteristics estimates must be used instead. </value>
+  </data>
+  <data name="Label44.ToolTip" xml:space="preserve">
+    <value>The moderator content should be expressed in terms of water equivalent.
+This is primarily because most of the modeling used to support this study 
+added water to the matrix to provide increasing levels of hydrogen. The bias 
+estimate is estimated based on the difference between the water content of the 
+standards and the item under assay.
+
+Specific studies on other low-Z moderating materials has not been examiend 
+in detail.
+
+The impact of the inclusion of water is on the order of 0.25% bias per wt% of 
+water in the plutonium matrix. So while a small effect for most materials it is 
+non-negligble. </value>
+  </data>
+  <data name="Label42.ToolTip" xml:space="preserve">
+    <value>The plutonium isotopic abundances impact the neutron energy distributions of both spontaneous
+and induced neutron production events. The effect is non-neglibile but small, so that the resulting
+biases can be estiamted from the the difference between 240Pueff / g (the burnup) of the calibration
+standards and the items under assay. 
+
+The value entered here should be typical of the calibration standards.</value>
+  </data>
+  <data name="Label41.ToolTip" xml:space="preserve">
+    <value>The differnce in the UPu ratio between the standards and the item under assay can lead to significant bias in the assay mass result.
+As the UPu ratio changes, so does 
+       The partial density of Pu within the item, creating a type of fill height effect,
+       The neutron energy distributions (primarily through scattering) which then impacts the moments of the induced fission moment.
+ 
+For typical MOX materials where the uranium enrichment is low. the fission events in the uranium will have a small effect in a well
+designed multiplicity counter where the reentrant thermal neutron fluence has negligible effect.</value>
+  </data>
+  <data name="Label45.ToolTip" xml:space="preserve">
+    <value>The plutonium isotopic abundances impact the neutron energy distributions of both spontaneous
+and induced neutron production events. The effect is non-neglibile but small, so that the resulting
+biases can be estiamted from the the difference between 240Pueff / g (the burnup) of the calibration
+standards and the items under assay. 
+
+The value entered here should be typical of the calibration standards.</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value>Multiplication Correction Factor
+Applied to m240 mass value
+m240 = m240/CF
+
+Normally only applied to assay of metallic items.
+It has been implemented here to support an alternative
+Density Bias estimattion. 
+
+However, the correction factor may also be applied to 
+oxides and other materiial forms.
+fa</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value>The differnce in the UPu ratio between the standards and the item under assay can lead to significant bias in the assay mass result.
+As the UPu ratio changes, so does 
+       The partial density of Pu within the item, creating a type of fill height effect,
+       The neutron energy distributions (primarily through scattering) which then impacts the moments of the induced fission moment.
+ 
+For typical MOX materials where the uranium enrichment is low. the fission events in the uranium will have a small effect in a well
+designed multiplicity counter where the reentrant thermal neutron fluence has negligible effect.</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value>The differnce in the UPu ratio between the standards and the item under assay can lead to significant bias in the assay mass result.
+As the UPu ratio changes, so does 
+       The partial density of Pu within the item, creating a type of fill height effect,
+       The neutron energy distributions (primarily through scattering) which then impacts the moments of the induced fission moment.
+ 
+For typical MOX materials where the uranium enrichment is low. the fission events in the uranium will have a small effect in a well
+designed multiplicity counter where the reentrant thermal neutron fluence has negligible effect.</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value>The calibration methodology has significant impact on the TMU.
+Select whether the calibration was based on a point source of material
+located at the cavity center or if a traditional calibration was performed using 
+representative standards. For representative standards based calibration provide 
+an estimate of the typical fill height for the standards.
+
+Enter the corresponding information on the standards material. Deviation 
+the standards characteristics and the item under assay introduces bias in the
+mass assay result. Since the multiplicity measurement can not detemine
+these characteristics estimates must be used instead. </value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value>The differnce in the UPu ratio between the standards and the item under assay can lead to significant bias in the assay mass result.
+As the UPu ratio changes, so does 
+       The partial density of Pu within the item, creating a type of fill height effect,
+       The neutron energy distributions (primarily through scattering) which then impacts the moments of the induced fission moment.
+ 
+For typical MOX materials where the uranium enrichment is low. the fission events in the uranium will have a small effect in a well
+designed multiplicity counter where the reentrant thermal neutron fluence has negligible effect.</value>
+  </data>
+  <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <metadata name="Panel2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAAABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAABAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8A////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////AA//AP/wAP//8A////////AP//DwDwD//w/w///////wD//w8A8A//AP/w//////8A//8PAPAP
+        /w//8P//////AP//DwDwD/8P//D//////wD//wAPAA//D//w//////8A//8ADwAP/w//8P//////AP//
+        AP8AD/8P//D//////wD//wD/AA//D//w/////w8A8P8A//AP/w//8P////8PAPD/AP/wD/8P//D/////
+        DwDw/w//8A//D//w/////wAAAPAP//AP8A//AP//////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
