@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class MultiplicityTMU
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MultiplicityTMU))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ConstantsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FissionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -453,24 +453,24 @@ Partial Class Form1
         Me.mult_corr_fact_box = New System.Windows.Forms.MaskedTextBox()
         Me.RichTextBox45 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox46 = New System.Windows.Forms.RichTextBox()
-        Me.MenuStrip1.SuspendLayout
-        Me.Panel1.SuspendLayout
-        Me.Panel2.SuspendLayout
-        Me.Panel3.SuspendLayout
-        Me.Panel5.SuspendLayout
-        Me.Panel6.SuspendLayout
-        Me.Panel7.SuspendLayout
-        Me.Panel8.SuspendLayout
-        Me.Panel9.SuspendLayout
-        Me.Panel10.SuspendLayout
-        Me.Panel11.SuspendLayout
-        Me.Panel12.SuspendLayout
-        Me.Panel13.SuspendLayout
-        Me.Panel16.SuspendLayout
-        Me.GroupBox3.SuspendLayout
-        Me.GroupBox4.SuspendLayout
-        Me.Panel4.SuspendLayout
-        Me.SuspendLayout
+        Me.MenuStrip1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        Me.Panel5.SuspendLayout()
+        Me.Panel6.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.Panel8.SuspendLayout()
+        Me.Panel9.SuspendLayout()
+        Me.Panel10.SuspendLayout()
+        Me.Panel11.SuspendLayout()
+        Me.Panel12.SuspendLayout()
+        Me.Panel13.SuspendLayout()
+        Me.Panel16.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        Me.SuspendLayout()
         '
         'MenuStrip1
         '
@@ -478,7 +478,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConstantsToolStripMenuItem, Me.DetectorParametersToolStripMenuItem, Me.ItemIsotopicsToolStripMenuItem, Me.OpenAssayFileToolStripMenuItem, Me.ToolStripMenuItem1, Me.PrintToolStripMenuItem, Me.ToolStripMenuItem3, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(18, 9)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(664, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(544, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -573,13 +573,13 @@ Partial Class Form1
         'TopicsToolStripMenuItem
         '
         Me.TopicsToolStripMenuItem.Name = "TopicsToolStripMenuItem"
-        Me.TopicsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TopicsToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.TopicsToolStripMenuItem.Text = "Topics"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'avg_trip_err_Box
@@ -4567,7 +4567,7 @@ Partial Class Form1
         Me.RichTextBox45.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.RichTextBox45.Enabled = False
         Me.RichTextBox45.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox45.Location = New System.Drawing.Point(246, 14768)
+        Me.RichTextBox45.Location = New System.Drawing.Point(237, 16806)
         Me.RichTextBox45.Name = "RichTextBox45"
         Me.RichTextBox45.Size = New System.Drawing.Size(9, 18)
         Me.RichTextBox45.TabIndex = 401
@@ -4578,18 +4578,18 @@ Partial Class Form1
         Me.RichTextBox46.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.RichTextBox46.BackColor = System.Drawing.SystemColors.Menu
         Me.RichTextBox46.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.RichTextBox46.Location = New System.Drawing.Point(218, 2541)
+        Me.RichTextBox46.Location = New System.Drawing.Point(209, 2541)
         Me.RichTextBox46.Name = "RichTextBox46"
         Me.RichTextBox46.Size = New System.Drawing.Size(30, 19)
         Me.RichTextBox46.TabIndex = 403
         Me.RichTextBox46.Text = "±"
         '
-        'Form1
+        'MultiplicityTMU
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.AutoScroll = true
-        Me.ClientSize = New System.Drawing.Size(950, 874)
+        Me.AutoScroll = True
+        Me.ClientSize = New System.Drawing.Size(967, 874)
         Me.Controls.Add(Me.RichTextBox46)
         Me.Controls.Add(Me.RichTextBox45)
         Me.Controls.Add(Me.mult_corr_fact_err_box)
@@ -4684,47 +4684,47 @@ Partial Class Form1
         Me.Controls.Add(Me.sample_id_box)
         Me.Controls.Add(Me.data_file_id_box)
         Me.Controls.Add(Me.Panel8)
-        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Location = New System.Drawing.Point(0, 5)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "Form1"
+        Me.Name = "MultiplicityTMU"
         Me.Text = "Multiplicity TMU"
-        Me.MenuStrip1.ResumeLayout(false)
-        Me.MenuStrip1.PerformLayout
-        Me.Panel1.ResumeLayout(false)
-        Me.Panel1.PerformLayout
-        Me.Panel2.ResumeLayout(false)
-        Me.Panel2.PerformLayout
-        Me.Panel3.ResumeLayout(false)
-        Me.Panel3.PerformLayout
-        Me.Panel5.ResumeLayout(false)
-        Me.Panel5.PerformLayout
-        Me.Panel6.ResumeLayout(false)
-        Me.Panel6.PerformLayout
-        Me.Panel7.ResumeLayout(false)
-        Me.Panel7.PerformLayout
-        Me.Panel8.ResumeLayout(false)
-        Me.Panel8.PerformLayout
-        Me.Panel9.ResumeLayout(false)
-        Me.Panel9.PerformLayout
-        Me.Panel10.ResumeLayout(false)
-        Me.Panel10.PerformLayout
-        Me.Panel11.ResumeLayout(false)
-        Me.Panel11.PerformLayout
-        Me.Panel12.ResumeLayout(false)
-        Me.Panel12.PerformLayout
-        Me.Panel13.ResumeLayout(false)
-        Me.Panel13.PerformLayout
-        Me.Panel16.ResumeLayout(false)
-        Me.Panel16.PerformLayout
-        Me.GroupBox3.ResumeLayout(false)
-        Me.GroupBox4.ResumeLayout(false)
-        Me.Panel4.ResumeLayout(false)
-        Me.Panel4.PerformLayout
-        Me.ResumeLayout(false)
-        Me.PerformLayout
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel6.PerformLayout()
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel7.PerformLayout()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
+        Me.Panel10.ResumeLayout(False)
+        Me.Panel10.PerformLayout()
+        Me.Panel11.ResumeLayout(False)
+        Me.Panel11.PerformLayout()
+        Me.Panel12.ResumeLayout(False)
+        Me.Panel12.PerformLayout()
+        Me.Panel13.ResumeLayout(False)
+        Me.Panel13.PerformLayout()
+        Me.Panel16.ResumeLayout(False)
+        Me.Panel16.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
 
-End Sub
+    End Sub
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents OpenAssayFileToolStripMenuItem As ToolStripMenuItem

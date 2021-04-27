@@ -4,23 +4,23 @@ Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
 Imports Microsoft.VisualBasic.powerpacks.printing
-Public Class Form1
+Public Class MultiplicityTMU
     ' Dim Form2 As New Form
-    Dim myForm1 As Form1
+    Dim myForm1 As MultiplicityTMU
     Dim myForm2 As Fission_Data_Form    ' fission data entry
-    Dim myForm3 As Form3        ' Detector Parameters
-    Dim myForm4 As Form4        ' Isotopic Nuclear data entry
-    Dim myForm5 As Form5        ' Empirical Bias Parameter Entry Form
-    Dim myForm6 As Form6        ' Item Info Entry
-    Dim myForm7 As Form7        ' Detector Physical Parameter Entry
-    Dim myForm8 As Form8        ' Misc Analysis Parameters
-    Dim myForm9 As Form9        ' Radial Contribution Detail
-    Dim myForm10 As Form10      ' Vertical Contribution Detail
-    Dim myForm11 As Form11      ' Detector Characterization Contribution Detail
-    Dim myForm12 As Form12      ' pu_240 mass effecitve conversion detail
-    Dim myForm13 As Form13      ' Fission momenet contribution detail
-    Dim myForm14 As Form14      ' Measurement precision detail
-    Dim myForm15 As Form15      ' Empirical Bias details
+    Dim myForm3 As CalibrationParams        ' Detector Parameters
+    Dim myForm4 As NuclideData        ' Isotopic Nuclear data entry
+    Dim myForm5 As EmpericalParams        ' Empirical Bias Parameter Entry Form
+    Dim myForm6 As ItemInfo        ' Item Info Entry
+    Dim myForm7 As CounterPhysicalDescription        ' Detector Physical Parameter Entry
+    Dim myForm8 As MiscParams        ' Misc Analysis Parameters
+    Dim myForm9 As RadialUniformity        ' Radial Contribution Detail
+    Dim myForm10 As AxialUniformity      ' Vertical Contribution Detail
+    Dim myForm11 As DetectorUncertainty      ' Detector Characterization Contribution Detail
+    Dim myForm12 As Pu240EffectiveConversion      ' pu_240 mass effecitve conversion detail
+    Dim myForm13 As FissionMomentContribution      ' Fission momenet contribution detail
+    Dim myForm14 As CountingStatistics      ' Measurement precision detail
+    Dim myForm15 As EmpericalBiases      ' Empirical Bias details
 
 
     Private Sub FissionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FissionToolStripMenuItem.Click
@@ -46,7 +46,7 @@ Public Class Form1
     Private Sub BasicParametersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BasicParametersToolStripMenuItem.Click
         'Lanuch Form 3
         If myForm3 Is Nothing Then
-            myForm3 = New Form3
+            myForm3 = New CalibrationParams
         End If
         myForm3.Show()
         myForm3 = Nothing
@@ -55,7 +55,7 @@ Public Class Form1
     Private Sub AlphaNToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlphaNToolStripMenuItem.Click
         ' Launch Form 4
         If myForm4 Is Nothing Then
-            myForm4 = New Form4
+            myForm4 = New NuclideData
         End If
         myForm4.Show()
         myForm4 = Nothing
@@ -85,7 +85,7 @@ Public Class Form1
     Private Sub PhysicalParametersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PhysicalParametersToolStripMenuItem.Click
         ' Launch Form 7
         If myForm7 Is Nothing Then
-            myForm7 = New Form7
+            myForm7 = New CounterPhysicalDescription
         End If
         myForm7.Show()
         myForm7 = Nothing
@@ -94,7 +94,7 @@ Public Class Form1
     Private Sub ItemIsotopicsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ItemIsotopicsToolStripMenuItem.Click
         ' Launch Form 6
         If myForm6 Is Nothing Then
-            myForm6 = New Form6
+            myForm6 = New ItemInfo
         End If
         myForm6.Show()
         myForm6 = Nothing
@@ -760,7 +760,7 @@ skip_mult_CF:
 
     Private Sub AdditionalParametersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AdditionalParametersToolStripMenuItem.Click
         If myForm5 Is Nothing Then
-            myForm5 = New Form5
+            myForm5 = New EmpericalParams
         End If
         myForm5.Show()
         myForm5 = Nothing
@@ -768,7 +768,7 @@ skip_mult_CF:
 
     Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
         If myForm8 Is Nothing Then
-            myForm8 = New Form8
+            myForm8 = New MiscParams
         End If
         myForm8.Show()
         myForm8 = Nothing
@@ -776,7 +776,7 @@ skip_mult_CF:
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If myForm9 Is Nothing Then
-            myForm9 = New Form9
+            myForm9 = New RadialUniformity
         End If
         myForm9.Show()
         myForm9 = Nothing
@@ -784,7 +784,7 @@ skip_mult_CF:
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         If myForm10 Is Nothing Then
-            myForm10 = New Form10
+            myForm10 = New AxialUniformity
         End If
         myForm10.Show()
         myForm10 = Nothing
@@ -792,7 +792,7 @@ skip_mult_CF:
 
     Private Sub det_cont_details_Button1_Click(sender As Object, e As EventArgs) Handles det_cont_details_Button1.Click
         If myForm11 Is Nothing Then
-            myForm11 = New Form11
+            myForm11 = New DetectorUncertainty
         End If
         myForm11.Show()
         myForm11 = Nothing
@@ -800,7 +800,7 @@ skip_mult_CF:
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         If myForm12 Is Nothing Then
-            myForm12 = New Form12
+            myForm12 = New Pu240EffectiveConversion
         End If
         myForm12.Show()
         myForm12 = Nothing
@@ -808,7 +808,7 @@ skip_mult_CF:
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If myForm13 Is Nothing Then
-            myForm13 = New Form13
+            myForm13 = New FissionMomentContribution
         End If
         myForm13.Show()
         myForm13 = Nothing
@@ -820,7 +820,7 @@ skip_mult_CF:
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If myForm14 Is Nothing Then
-            myForm14 = New Form14
+            myForm14 = New CountingStatistics
         End If
         myForm14.Show()
         myForm14 = Nothing
@@ -871,7 +871,7 @@ skip_mult_CF:
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         If myForm15 Is Nothing Then
-            myForm15 = New Form15
+            myForm15 = New EmpericalBiases
         End If
         myForm15.Show()
         myForm15 = Nothing

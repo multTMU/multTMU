@@ -4,7 +4,7 @@ Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
 Imports Microsoft.VisualBasic.powerpacks.printing
-Public Class Form10
+Public Class AxialUniformity
     Public radial_likely_offset
     Public container_IDiam, temp_eff, temp_fd, temp_ft, typical_container_offset, Random_container_offset, detector_stand, container_H
     Public average_density, minimum_density, maximum_density, minimum_fill_height, maximum_fill_height, pu_mass_fraction, average_fill_height

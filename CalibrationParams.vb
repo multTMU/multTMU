@@ -3,9 +3,9 @@ Imports System.Text
 Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
-Public Class Form3
+Public Class CalibrationParams
 
-    Dim myForm16 As Form16      ' dual energy multiplicity parameter entry screen
+    Dim myForm16 As DualEnergyMultParams      ' dual energy multiplicity parameter entry screen
 
     '    Public pt_cal_flag As Boolean
     Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -724,7 +724,7 @@ Public Class Form3
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         If myForm16 Is Nothing Then
-            myForm16 = New Form16
+            myForm16 = New DualEnergyMultParams
         End If
         myForm16.Show()
         myForm16 = Nothing

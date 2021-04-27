@@ -25,7 +25,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>33</ApplicationRevision>
+    <ApplicationRevision>34</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -73,10 +73,12 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\VisualBasic.PowerPacks.Vs.1.0.0\lib\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -104,101 +106,101 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="MultiplicityTMU.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="MultiplicityTMU.Designer.vb">
+      <DependentUpon>MultiplicityTMU.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form10.Designer.vb">
-      <DependentUpon>Form10.vb</DependentUpon>
+    <Compile Include="AxialUniformity.Designer.vb">
+      <DependentUpon>AxialUniformity.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form10.vb">
+    <Compile Include="AxialUniformity.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form11.Designer.vb">
-      <DependentUpon>Form11.vb</DependentUpon>
+    <Compile Include="DetectorUncertainty.Designer.vb">
+      <DependentUpon>DetectorUncertainty.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form11.vb">
+    <Compile Include="DetectorUncertainty.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form12.Designer.vb">
-      <DependentUpon>Form12.vb</DependentUpon>
+    <Compile Include="Pu240EffectiveConversion.Designer.vb">
+      <DependentUpon>Pu240EffectiveConversion.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form12.vb">
+    <Compile Include="Pu240EffectiveConversion.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form13.Designer.vb">
-      <DependentUpon>Form13.vb</DependentUpon>
+    <Compile Include="FissionMomentContribution.Designer.vb">
+      <DependentUpon>FissionMomentContribution.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form13.vb">
+    <Compile Include="FissionMomentContribution.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form14.Designer.vb">
-      <DependentUpon>Form14.vb</DependentUpon>
+    <Compile Include="CountingStatistics.Designer.vb">
+      <DependentUpon>CountingStatistics.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form14.vb">
+    <Compile Include="CountingStatistics.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form15.Designer.vb">
-      <DependentUpon>Form15.vb</DependentUpon>
+    <Compile Include="EmpericalBiases.Designer.vb">
+      <DependentUpon>EmpericalBiases.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form15.vb">
+    <Compile Include="EmpericalBiases.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form16.Designer.vb">
-      <DependentUpon>Form16.vb</DependentUpon>
+    <Compile Include="DualEnergyMultParams.Designer.vb">
+      <DependentUpon>DualEnergyMultParams.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form16.vb">
+    <Compile Include="DualEnergyMultParams.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="FissionMoments.Designer.vb">
+      <DependentUpon>FissionMoments.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="FissionMoments.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="CalibrationParams.Designer.vb">
+      <DependentUpon>CalibrationParams.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="CalibrationParams.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="NuclideData.Designer.vb">
+      <DependentUpon>NuclideData.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="NuclideData.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="EmpericalParams.Designer.vb">
+      <DependentUpon>EmpericalParams.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form5.vb">
+    <Compile Include="EmpericalParams.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.vb">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <Compile Include="ItemInfo.Designer.vb">
+      <DependentUpon>ItemInfo.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form6.vb">
+    <Compile Include="ItemInfo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.vb">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <Compile Include="CounterPhysicalDescription.Designer.vb">
+      <DependentUpon>CounterPhysicalDescription.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form7.vb">
+    <Compile Include="CounterPhysicalDescription.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.vb">
-      <DependentUpon>Form8.vb</DependentUpon>
+    <Compile Include="MiscParams.Designer.vb">
+      <DependentUpon>MiscParams.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form8.vb">
+    <Compile Include="MiscParams.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9.Designer.vb">
-      <DependentUpon>Form9.vb</DependentUpon>
+    <Compile Include="RadialUniformity.Designer.vb">
+      <DependentUpon>RadialUniformity.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form9.vb">
+    <Compile Include="RadialUniformity.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -225,54 +227,54 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="MultiplicityTMU.resx">
+      <DependentUpon>MultiplicityTMU.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form10.resx">
-      <DependentUpon>Form10.vb</DependentUpon>
+    <EmbeddedResource Include="AxialUniformity.resx">
+      <DependentUpon>AxialUniformity.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form11.resx">
-      <DependentUpon>Form11.vb</DependentUpon>
+    <EmbeddedResource Include="DetectorUncertainty.resx">
+      <DependentUpon>DetectorUncertainty.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form12.resx">
-      <DependentUpon>Form12.vb</DependentUpon>
+    <EmbeddedResource Include="Pu240EffectiveConversion.resx">
+      <DependentUpon>Pu240EffectiveConversion.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form13.resx">
-      <DependentUpon>Form13.vb</DependentUpon>
+    <EmbeddedResource Include="FissionMomentContribution.resx">
+      <DependentUpon>FissionMomentContribution.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form14.resx">
-      <DependentUpon>Form14.vb</DependentUpon>
+    <EmbeddedResource Include="CountingStatistics.resx">
+      <DependentUpon>CountingStatistics.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form15.resx">
-      <DependentUpon>Form15.vb</DependentUpon>
+    <EmbeddedResource Include="EmpericalBiases.resx">
+      <DependentUpon>EmpericalBiases.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form16.resx">
-      <DependentUpon>Form16.vb</DependentUpon>
+    <EmbeddedResource Include="DualEnergyMultParams.resx">
+      <DependentUpon>DualEnergyMultParams.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="FissionMoments.resx">
+      <DependentUpon>FissionMoments.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="CalibrationParams.resx">
+      <DependentUpon>CalibrationParams.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="NuclideData.resx">
+      <DependentUpon>NuclideData.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <EmbeddedResource Include="EmpericalParams.resx">
+      <DependentUpon>EmpericalParams.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <EmbeddedResource Include="ItemInfo.resx">
+      <DependentUpon>ItemInfo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <EmbeddedResource Include="CounterPhysicalDescription.resx">
+      <DependentUpon>CounterPhysicalDescription.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.vb</DependentUpon>
+    <EmbeddedResource Include="MiscParams.resx">
+      <DependentUpon>MiscParams.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.vb</DependentUpon>
+    <EmbeddedResource Include="RadialUniformity.resx">
+      <DependentUpon>RadialUniformity.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resource1.resx">
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
@@ -313,6 +315,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Resources\TMU_icon.ico" />
   </ItemGroup>
   <ItemGroup>

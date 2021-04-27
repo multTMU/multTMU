@@ -1,4 +1,4 @@
-﻿Public Class Form16
+﻿Public Class DualEnergyMultParams
     Private Sub Form16_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         '
         '   Called from Calibration parameter entry screen, Form 3

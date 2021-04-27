@@ -1,7 +1,7 @@
 ﻿Imports System.IO
 Imports System.Text
 Imports System.Math
-Public Class Form15
+Public Class EmpericalBiases
     Private Sub Form15_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Dim file_location, det_param_file, fiss_param_file, iso_param_file, det_dim_file As String

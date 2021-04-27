@@ -1,6 +1,6 @@
 ﻿Imports System.IO
 Imports System.Text
-Public Class Form5
+Public Class EmpericalParams
 
     Private Sub SumHistoTable1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
 

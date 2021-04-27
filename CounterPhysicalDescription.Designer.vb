@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form7
+Partial Class CounterPhysicalDescription
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form7
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form7))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CounterPhysicalDescription))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.cavity_height_Box1 = New System.Windows.Forms.MaskedTextBox()
         Me.Cavity_ID_Box = New System.Windows.Forms.MaskedTextBox()

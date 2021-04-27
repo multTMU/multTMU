@@ -4,7 +4,7 @@ Imports System.Text
 Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
-Public Class Form4
+Public Class NuclideData
     Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub

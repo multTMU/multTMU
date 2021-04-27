@@ -4,7 +4,7 @@ Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
 Imports Microsoft.VisualBasic.PowerPacks.Printing
-Public Class Form14
+Public Class CountingStatistics
     Public alpha1, alpha2, alpha3
     Private Sub Form14_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 

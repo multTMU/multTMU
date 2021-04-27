@@ -4,7 +4,7 @@ Imports System.Math
 
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
-Public Class Form13
+Public Class FissionMomentContribution
     Private Sub Form13_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         ' ***** Load data file contents onto screen *****

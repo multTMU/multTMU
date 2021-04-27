@@ -1,4 +1,4 @@
-﻿Public Class Form12
+﻿Public Class Pu240EffectiveConversion
     Private Sub Form12_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Dim file_location, item_param_file, fiss_param_file, iso_param_file As String

@@ -7,7 +7,7 @@ Imports System.Windows.Forms.DataVisualization.Charting
 Imports Microsoft.VisualBasic.PowerPacks.Printing
 
 
-Public Class Form11
+Public Class DetectorUncertainty
 
     '        Public det_par_val(10)
     '   Public det_par_err(10)

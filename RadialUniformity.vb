@@ -4,7 +4,7 @@ Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
 Imports Microsoft.VisualBasic.powerpacks.printing
-Public Class Form9
+Public Class RadialUniformity
     Public radial_likely_offset
     '  Public counter_id, current_det_file_name As String
     Public container_IDiam, temp_eff, temp_fd, temp_ft, typical_container_offset, Random_container_offset

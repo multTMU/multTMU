@@ -3,7 +3,7 @@ Imports System.Text
 Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
-Public Class Form7
+Public Class CounterPhysicalDescription
 
 
     Private Sub Form7_Load(sender As Object, e As EventArgs) Handles MyBase.Load

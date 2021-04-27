@@ -3,7 +3,7 @@ Imports System.Text
 Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
-Public Class Form8
+Public Class MiscParams
     Public misc_param(12)
     Private Sub Form8_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 

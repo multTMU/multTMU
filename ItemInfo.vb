@@ -3,7 +3,7 @@ Imports System.Text
 Imports System.Math
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms.DataVisualization.Charting
-Public Class Form6
+Public Class ItemInfo
     '   Public iso_val(12), iso_val_err(12)
     '   Public iso_date(4) As Date
     '    Public geo_par(19)
